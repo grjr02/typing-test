@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 
-export default function DynamicInput() {
+export default function DynamicInput(props) {
     const [input, setInput] = useState('');
 
     useEffect(() => {
 
-        console.log(input)
+        props.text(input);
         
     }, [input])
 
