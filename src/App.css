@@ -1,5 +1,5 @@
 body{
-  background: #FAFAFA;
+  background: lightslategray;
 }
 .timercard{
   margin-top: 20px;
@@ -20,4 +20,34 @@ body{
   letter-spacing: 8px;
   color: #FFFFFF;
   opacity: 1;
+}
+.textbox{
+  background: white;
+  width: 50%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20px;
+  height: 300px;
+  padding: 10px;
+  text-align: center;
+}
+.text{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: rgb(22, 22, 22);
+  opacity: 1;
+}
+
+.typingInput{
+  text-align: center;
+  width: 200px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 16px;
+  border: none;
+  padding: 10px 0;
 }
