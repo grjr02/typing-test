@@ -4,7 +4,7 @@ export default function Timer() {
     const [count, setCount] = useState(59);
     const [time, setTime] = useState("01:00");
 
-    const [color, setColor] = useState('#DBDBDB');
+    const [color, setColor] = useState('whitesmoke');
 
 
     useEffect(() => {
