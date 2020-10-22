@@ -1,13 +1,14 @@
 body{
-  background: lightslategray;
+  background: whitesmoke;
 }
 .timercard{
   margin-top: 20px;
   text-align: center;
   padding: 20px 5px;
   width: 120px;
-  background: #DBDBDB 0% 0% no-repeat padding-box;
-  border: 1px solid #C7C7C7;
+  background: whitesmoke 0% 0% no-repeat padding-box;
+  /* border: 1px solid #C7C7C7; */
+  border: none;
   border-radius: 15px;
   opacity: 1;
   margin-left: 50%;
@@ -18,13 +19,15 @@ body{
   font-weight: bold;
   font-size: 24px;
   letter-spacing: 8px;
-  color: #FFFFFF;
+  color: black;
   opacity: 1;
 }
 .textbox{
   background: white;
   width: 50%;
   margin-left: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
   transform: translateX(-50%);
   border-radius: 20px;
   height: 300px;
@@ -49,5 +52,5 @@ body{
   margin-bottom: 25px;
   border-radius: 16px;
   border: none;
-  padding: 10px 0;
+  padding: 15px 15px;
 }
